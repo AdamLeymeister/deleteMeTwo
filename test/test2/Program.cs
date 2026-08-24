@@ -9,18 +9,20 @@
 // This source code is intended solely for authorized development and testing.
 // Unauthorized distribution or modification is prohibited.
 // -----------------------------------------------------------------------------
-
 namespace app1
 {
-    public partial class Form1 : Form
+    internal static class Program
     {
-        public Form1()
+        /// <summary>
+        ///  The main entry point for the application.
+        /// </summary>
+        [STAThread]
+        static void Main()
         {
-            InitializeComponent("Changesmore");
-            InitializeComponent(); //Comment
-            InitializeComponent(); //Comment
-            InitializeComponent(); //Comment
-            InitializeComponent(); //Comment
+            // To customize application configuration such as set high DPI settings or default font,
+            // see https://aka.ms/applicationconfiguration.
+            ApplicationConfiguration.Initialize();
+            Application.Run(new Form1());
         }
     }
 }

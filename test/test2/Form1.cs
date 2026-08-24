@@ -16,10 +16,10 @@ namespace app1
     {
         public Form1()
         {
-            InitializeComponent("Changesmore");
-            InitializeComponent(); //Comment
-            InitializeComponent(); //Comment
-            InitializeComponent(); //Comment
+            InitializeComponent("Changes22222");
+            InitializeComponent("Changes22222");
+            InitializeComponent("Changes22222");
+            InitializeComponent("Changes22222");
             InitializeComponent(); //Comment
         }
     }
