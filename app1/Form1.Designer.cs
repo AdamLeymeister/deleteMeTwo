@@ -1,14 +1,11 @@
-﻿// -----------------------------------------------------------------------------
-// ACME SOFTWARE SYSTEMS
-// Internal Source Code
+﻿// ============================================================================
+// Copyright (c) 2026 Example Company
+// All Rights Reserved.
 //
-// Module: ExampleService
-// Maintainer: Application Development Team
-// Revision: 2.4
-//
-// This source code is intended solely for authorized development and testing.
-// Unauthorized distribution or modification is prohibited.
-// -----------------------------------------------------------------------------
+// File: ExampleService.cs
+// Description: Example source file used for testing.
+// ============================================================================
+
 namespace app1
 {
     partial class Form1
@@ -49,9 +46,7 @@ namespace app1
     }
 }
 
-// -----------------------------------------------------------------------------
-// [ ACME SOFTWARE SYSTEMS :: END OF SOURCE ]
-//
-// Build Classification: INTERNAL
-// Document Revision: 2.4
-// -----------------------------------------------------------------------------
+// ============================================================================
+// END OF FILE
+// Example Company - Proprietary and Confidential
+// ============================================================================
